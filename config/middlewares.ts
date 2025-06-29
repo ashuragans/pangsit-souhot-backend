@@ -19,8 +19,7 @@ export default [
     config: {
       enabled: true,
       headers: '*',
-      // IMPORTANT: Update this origin if your React app runs on a different port
-      origin: ['http://localhost:5173', 'http://localhost:1337']
+      origin: ['https://pangsitsouhot.netlify.app', 'https://classic-amusement-4aafbb0776.strapiapp.com']
     }
   },
   'strapi::poweredBy',
